@@ -14,7 +14,7 @@ This script transforms standard LaTeX documents into interactive PDFs. Hover ove
 
 ## Minimal Working Example (MWE)
 
-The MWE.tex file is a (not quite) minimal working example. Make sure CUGC.JPG is in the same folder and then run ``perl fancy-preview-plus.pl MWE```
+The MWE.tex file is a (not quite) minimal working example. Make sure CUGC.JPG is in the same folder and then run `perl fancy-preview-plus.pl MWE`
 
 ## Features
 
