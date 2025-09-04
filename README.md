@@ -4,6 +4,8 @@ A Perl script that enhances LaTeX documents by automatically generating interact
 
 This script orchestrates a multi-pass compilation of a LaTeX source file to produce a self-contained, interactive PDF. It is a heavily modified and debugged version of the original `fancy-preview` script by Robert Marik.
 
+Caveat: the tooltips work well in Adobe Acrobat Reader, but may not work in other PDF viewers.
+
 ## Showcase
 
 This script transforms standard LaTeX documents into interactive PDFs. Hover over references for citations, figures, equations, and theorems to see live previews without losing your place (as shown below). You can download MWE.pdf which has been pre-compiled.
