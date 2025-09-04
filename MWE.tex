@@ -1,0 +1,68 @@
+% This block creates the references.bib file automatically.
+\begin{filecontents}{references.bib}
+	@article{Pinnell2025,
+		author  = {Pinnell, Jonathan},
+		title   = {A Quantitative Analysis of Inevitable Sporting Outcomes: The Case of the 136th University Golf Match},
+		journal = {Journal of Applied Triumphs},
+		year    = {2025},
+		volume  = {1},
+		pages   = {1--5}
+	}
+\end{filecontents}
+
+\documentclass[12pt]{article}
+
+\usepackage{amsmath}    % For superior mathematical notation
+\usepackage{amsthm}     % For stating undeniable truths
+\usepackage{graphicx}   % For visual evidence of dominance
+
+% --- Biblatex setup for citations ---
+\usepackage[style=nature, backend=biber]{biblatex}
+\addbibresource{references.bib} % Points to the file created above
+
+\usepackage{hyperref}   % To link to the proof of victory
+
+% Define the theorem environment
+\newtheorem{theorem}{Theorem}
+
+\title{Official Record: The Outcome of the 136th University Golf Match}
+\author{A Triumphant Light Blue}
+\date{March 2025}
+
+\begin{document}
+	
+	\maketitle
+	\thispagestyle{empty}
+	
+	\section{A Foregone Conclusion}
+	
+	This document presents a brief, scientific analysis of the Cambridge University Golf Club's (CUGC) comprehensive victory over their esteemed rivals from Oxford. The results, as you will see, were never in doubt.	\footnote{The main purpose is actually to showcase fancy-preview-plus. Hover over the references to see a preview of them without having to scroll to the relevant part of the document and potentially lose your place (amazing I know)!}
+	
+	\subsection{The Fundamental Formula for Victory}
+	The outcome can be described by the simple, elegant formula shown in Equation~\ref{eq:obvious}. Hover over the reference to see the mathematical ``proof''.
+	\begin{equation}
+		\text{Victory Margin} = (\text{Talent}_{\text{CUGC}})^\infty - (\text{Hope}_{\text{Oxford}})^0
+		\label{eq:obvious}
+	\end{equation}
+	
+	\subsection{Iconographic Evidence}
+	Further proof can be seen in the majestic emblem of the club itself, shown in Figure~\ref{fig:logo}. Its inherent quality is a clear precursor to victory. Hover over the reference ``\ref{fig:logo}'' for a glorious preview.
+	\begin{figure}[h!]
+		\centering
+		\includegraphics[width=0.6\linewidth]{CUGC.JPG}
+		\caption{The majestic CUGC logo, a symbol of excellence.}
+		\label{fig:logo}
+	\end{figure}
+	
+	\subsection{A Provable, Peer-Reviewed Theorem}
+	Finally, we present Theorem~\ref{thm:truth}, a universal principle now supported by extensive research \cite{Pinnell2025}.
+	\begin{theorem}[The Principle of Light Blue Supremacy]
+		In any given University Golf Match, the probability of a CUGC victory, $P(V_{CUGC})$, asymptotically approaches 1. For the 136th match, this theorem was rigorously proven. \label{thm:truth}
+	\end{theorem}
+	
+	The evidence is, as you can see, conclusive. GDBO.
+	
+	% --- This command prints the bibliography at the end ---
+	\printbibliography
+	
+\end{document}
