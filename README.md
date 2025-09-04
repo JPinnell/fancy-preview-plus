@@ -55,5 +55,5 @@ For the most reliable results, always delete all temporary LaTeX files before ru
 
 **On Windows (Command Prompt):**
 ```cmd
-del /f /q *.aux *.bbl *.bcf *.blg *.log *.out *.run.xml *.tmp *-crop.pdf minimal.*
+del -f *.aux *.bbl *.bcf *.blg *.log *.out *.run.xml *.tmp *-crop.pdf minimal.*
 ```
