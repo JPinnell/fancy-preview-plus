@@ -12,6 +12,10 @@ This script transforms standard LaTeX documents into interactive PDFs. Hover ove
 
 *(This example was generated from the self-contained MWE included in the repository.)*
 
+## Minimal Working Example (MWE)
+
+The MWE.tex file is a (not quite) minimal working example. Make sure CUGC.JPG is in the same folder and then run ``perl fancy-preview-plus.pl MWE```
+
 ## Features
 
 * **Interactive Tooltips:** Creates on-hover popup previews for document elements.
