@@ -47,6 +47,7 @@ The script is designed to be the **only** command you need to run. It handles th
 Run the script from your terminal, passing your main `.tex` file as an argument (with no file extension)
 ```cmd
 perl fancy-preview-plus.pl <TEX_FILENAME>
+```
 
 ### 2. Best Practice: Start Clean
 
@@ -55,3 +56,4 @@ For the most reliable results, always delete all temporary LaTeX files before ru
 **On Windows (Command Prompt):**
 ```cmd
 del /f /q *.aux *.bbl *.bcf *.blg *.log *.out *.run.xml *.tmp *-crop.pdf minimal.*
+```
