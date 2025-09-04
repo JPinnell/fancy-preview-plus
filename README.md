@@ -6,15 +6,15 @@ This script orchestrates a multi-pass compilation of a LaTeX source file to prod
 
 ## Showcase
 
-This script transforms standard LaTeX documents into interactive PDFs. Hover over references for citations, figures, equations, and theorems to see live previews without losing your place.
+This script transforms standard LaTeX documents into interactive PDFs. Hover over references for citations, figures, equations, and theorems to see live previews without losing your place (as shown below). You can download MWE.pdf which has been pre-compiled.
 
 ![Animated demonstration of fancy-preview tooltips](MWE.gif)
 
-*(This example was generated from the self-contained MWE included in the repository.)*
+*(This example was generated from the self-contained MWE included in the repository. It can be found in the files as MWE.gif)*
 
 ## Minimal Working Example (MWE)
 
-The MWE.tex file is a (not quite) minimal working example. Make sure CUGC.JPG is in the same folder and then run `perl fancy-preview-plus.pl MWE`
+The MWE.tex file is a (not quite) minimal working example. Make sure CUGC.JPG is in the same folder and then run `perl fancy-preview-plus.pl MWE`. 
 
 ## Features
 
